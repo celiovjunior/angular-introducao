@@ -1,3 +1,5 @@
-h2 {
-  color:cornflowerblue;
+.title {
+  background-color: aqua;
+  color: grey;
+  padding: .5rem;
 }

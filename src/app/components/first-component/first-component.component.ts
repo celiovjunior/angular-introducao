@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class FirstComponentComponent implements OnInit {
   name: string = 'Celio';
   age: number = 28;
-  job: string = 'Dev'
+  job: string = 'Dev';
+
   constructor() { }
 
   ngOnInit(): void {
