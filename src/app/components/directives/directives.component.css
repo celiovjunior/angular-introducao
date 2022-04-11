@@ -5,3 +5,7 @@
 .green-title {
   color: rgb(37, 192, 37);
 }
+
+.underline-title {
+  text-decoration: underline;
+}

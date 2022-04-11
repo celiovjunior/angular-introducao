@@ -1,0 +1,10 @@
+<div class="class">
+  <div *ngIf="mostra">
+    <h1>Componente If/Render</h1>
+    <p>conteúdo para mostrar</p>
+  </div>
+  <p *ngIf="name === 'Célio'; else nameNotFound">Nome: Célio</p>
+  <ng-template #nameNotFound>
+    <h2>O nome não foi encontrado.</h2>
+  </ng-template>
+</div>
