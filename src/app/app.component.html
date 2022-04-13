@@ -1,9 +1,8 @@
 <h1>olá mundo! codando em angular</h1>
-<h2>subtitulo</h2>
-<app-first-component></app-first-component>
-<app-parent-data [name]="userName" [data]="userData"></app-parent-data>
-<app-directives></app-directives>
-<app-if-render></app-if-render>
-<app-events></app-events>
-<app-emitter></app-emitter>
-<app-list-render></app-list-render>
+<nav>
+  <ul>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/list">Lista</a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
