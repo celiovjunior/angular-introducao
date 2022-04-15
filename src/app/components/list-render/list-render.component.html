@@ -3,8 +3,8 @@
   <h3>Praticando manipulação de arrays/dados</h3>
   <ul>
     <li *ngFor="let animal of animals">
-      Nome: {{ animal.name }} <br>
-      Função: {{ animal.type }}
+      Nome: <a routerLink="/list/{{ animal.id }}">{{ animal.name }}</a><br>
+      Tipo: {{ animal.type }}
       <button (click)="showAge(animal)">show age</button>
       <button (click)="removeAnimal(animal)">remover</button>
     </li>
